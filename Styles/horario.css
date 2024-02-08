@@ -1,0 +1,284 @@
+﻿
+        [type="checkbox"] + label{
+            padding-left:25px;
+            padding-right:20px;
+            font-weight:normal;
+        }
+        .tdHora{
+            width:10%;
+        }
+      
+        .tdDia{
+            width:18%;
+        }
+        
+        .table-bordered{
+            border:0px;
+        }
+        .table-bordered>tbody>tr>td{
+            border:0px;
+        }
+        .modal-body-miCurso {
+            position: relative;
+            padding: 15px;
+            overflow: hidden;
+        }
+
+        .divi_opciones_img {
+            width: 20px;
+            float: right;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .auto-style1 {
+            color: #FF0000;
+        }
+
+        .headerpopup {
+            height: 35px;
+            overflow: hidden;
+        }
+
+        .footerpopup {
+            height: 45px;
+            overflow: hidden;
+        }
+
+        .primeracolumna {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .divInfo {
+            overflow: hidden;
+            background: #e1e1e1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            -webkit-border-top-left-radius: 4px;
+            -webkit-border-top-right-radius: 4px;
+            -moz-border-radius-topleft: 4px;
+            -moz-border-radius-topright: 4px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .cuadro_info_content {
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+            background-color: #FBFBFB;
+            margin-bottom: 5px;
+            -webkit-border-bottom-right-radius: 4px;
+            -webkit-border-bottom-left-radius: 4px;
+            -moz-border-radius-bottomright: 4px;
+            -moz-border-radius-bottomleft: 4px;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+
+        .tmn_counts {
+            color: #FFF;
+            margin-top: 3px;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-style: normal;
+            background: #f44336;
+            padding: 1px 7px;
+            border-radius: 4px;
+            font-size: 12px;
+            -webkit-animation-name: wobble;
+            animation-name: wobble;
+            -webkit-animation-duration: 500ms;
+            animation-duration: 500ms;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        .tmn_counts_position {
+            float: right;
+        }
+
+        .row {
+            margin-left:0px;
+            margin-right: 0px;
+        }
+
+
+
+        .cuadro_tab_nav {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #FFF;
+        }
+
+        .cuadro_tab_content {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            padding: 10px 15px;
+            background-color: #FFF;
+            margin-bottom: 4px;
+        }
+
+        .cuadro_tab_content_titulo {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            padding: 10px 15px;
+            margin-bottom: 4px;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            background-color: #fafafa;
+            margin-right: 1px;
+        }
+
+        .cuadro_tab_content_fila {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            padding: 0px;
+            background-color: #FFF;
+            margin-bottom: 2px;
+            height: 80px;
+            margin-right:1px;
+        }
+        .cuadro_tab_content_fila_HOME {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            padding: 0px;
+            background-color: #FFF;
+            margin-bottom: 2px;
+            height: 68px;
+            margin-right:1px;
+        }
+        .cuadro_tab_content_min_height {
+            min-height: 300px;
+        }
+
+        .tab_content_fecha_actividad {
+            font-size: 11px;
+            margin-bottom: 5px;
+            margin-top: -2px;
+            font-style: normal;
+            color: #9C9C9C;
+            display: block;
+        }
+
+        .h3_titulo_content {
+            /*background-color: #ECECEC;*/
+            margin: -10px -15px -15px;
+            padding: 15px;
+            font-weight: normal;
+            -webkit-border-top-left-radius: 4px;
+            -webkit-border-top-right-radius: 4px;
+            -moz-border-radius-topleft: 4px;
+            -moz-border-radius-topright: 4px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .hr_titulo_content {
+            margin-bottom: 15px;
+            border: 0px;
+        }
+
+        .fecha_section {
+            border: 1px solid #D2D2D2;
+            padding: 2px 10px;
+            font-size: 80%;
+            background-color: #ECECEC;
+            color: #000;
+            text-align: center;
+            margin: 15px 0;
+            cursor: pointer;
+        }
+
+
+        .nav li ul {
+            /*display:none;*/
+            list-style: none;
+            min-width: 140px;
+            padding: 2px 10px 2px 10px;
+            background-color: #fff;
+            font-size: 13px;
+        }
+
+            .nav li ul li {
+                padding: 5px;
+            }
+
+                .nav li ul li:hover {
+                    background-color: #F2F4FF;
+                    border-radius: 4px;
+                    -moz-border-radius: 4px;
+                }
+
+        .activoAsignatura li {
+            background-color: #DFE5FF;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            margin-right: -10px;
+        }
+        .canecaEliminar {
+            color: #f5b6b0;
+            position:absolute;            
+            right: 3px;
+            margin-top: -2px;
+            position: absolute;
+            font-size: 15px;
+        }
+        .canecaEliminar:hover {
+            color: #FF0000;
+            background-color: rgba(255,255,255,0.8);
+            cursor: pointer;
+        }
+        .cssCursos {
+            background-color: #f9f9f9;
+            padding: 5px 5px 5px 10px;
+            border-top: 1px solid #e5e0e0;
+            
+        }
+
+        .modalImagen {
+            display: none;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: black;
+            z-index: 100;
+            opacity: 0.8;
+            filter: alpha(opacity=60);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+        }
+
+        #divImage {
+            display: none;
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: White;
+            height: 550px;
+            width: 600px;
+            padding: 3px;
+            /*para Firefox*/
+            -moz-border-radius: 15px 15px 15px 15px;
+            /*para Safari y Chrome*/
+            -webkit-border-radius: 15px 15px 15px 15px;
+            /* para Opera */
+            border-radius: 15px 15px 15px 15px;
+            /*border: solid 1px black;*/
+        }
+
+        @media (min-width: 768px) {
+            .modal-dialog {
+                width: 800px;
+                margin: 30px auto;
+            }
+        }
+

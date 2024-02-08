@@ -1,0 +1,61 @@
+﻿body {
+}
+.form-signin input[type="text"] {            
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {            
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.vertical-offset-100 {
+    padding-top: 100px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /*border: 1px solid transparent;
+    border-radius: 4px;*/
+    -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+
+
+    border:8px solid #2ea1c5;
+    border-radius: 4px;
+}
+.panel-default > .panel-heading {
+    background-image:none;
+    background-color:transparent;
+    border-color:transparent;
+}
+.login_failed{
+    margin-bottom:10px;
+}
+.login_failed > span{
+    font-size:95%;
+    margin-bottom:10px;
+}
+.developer{
+    font-size:12px;text-align:center;padding: 4px; color: #007992; right: 0px; bottom: 0px; 
+    /*-webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.9), 0 1px 2px rgba(0, 0, 0, 0.9);*/
+-webkit-border-top-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-left-radius: 10px;
+}
+.developer2{
+    font-size:12px;text-align:center;padding: 4px; color: rgba(255, 255, 255, 0.9); right: 0px; bottom: 0px; position:absolute;  
+
+
+}

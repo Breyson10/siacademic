@@ -1,0 +1,254 @@
+﻿/*
+ * Page: Mailbox
+ * -------------
+ */
+.mailbox-messages > .table {
+  margin: 0;
+}
+.mailbox-controls {
+  padding: 5px;
+}
+.mailbox-controls.with-border {
+  border-bottom: 1px solid #f4f4f4;
+}
+.mailbox-read-info {
+  border-bottom: 1px solid #f4f4f4;
+  padding: 10px;
+}
+.mailbox-read-info h3 {
+  font-size: 20px;
+  margin: 0;
+}
+.mailbox-read-info h5 {
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+.mailbox-read-time {
+  color: #999;
+  font-size: 13px;
+}
+.mailbox-read-message {
+  padding: 10px;
+}
+.mailbox-attachments li {
+  float: left;
+  width: 200px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.mailbox-attachment-name {
+  font-weight: bold;
+  color: #666;
+}
+.mailbox-attachment-icon,
+.mailbox-attachment-info,
+.mailbox-attachment-size {
+  display: block;
+}
+.mailbox-attachment-info {
+  padding: 10px;
+  background: #f4f4f4;
+}
+.mailbox-attachment-size {
+  color: #999;
+  font-size: 12px;
+}
+.mailbox-attachment-icon {
+  text-align: center;
+  font-size: 65px;
+  color: #666;
+  padding: 20px 10px;
+}
+.mailbox-attachment-icon.has-img {
+  padding: 0;
+}
+.mailbox-attachment-icon.has-img > img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* NAV STACKED */
+.nav-stacked > li > a {
+  border-radius: 0;
+  border-top: 0;
+  border-left: 3px solid transparent;
+  color: #444;
+}
+.nav-stacked > li.active > a,
+.nav-stacked > li.active > a:hover {
+  background: transparent;
+  color: #444;
+  border-top: 0;
+  border-left-color: #3c8dbc;
+}
+.nav-stacked > li.header {
+  border-bottom: 1px solid #ddd;
+  color: #777;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+/* NAV TABS */
+.nav-tabs-custom {
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.nav-tabs-custom > .nav-tabs {
+  margin: 0;
+  border-bottom-color: #f4f4f4;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.nav-tabs-custom > .nav-tabs > li {
+  border-top: 3px solid transparent;
+  margin-bottom: -2px;
+  margin-right: 5px;
+}
+.nav-tabs-custom > .nav-tabs > li > a {
+  color: #444;
+  border-radius: 0;
+}
+.nav-tabs-custom > .nav-tabs > li > a.text-muted {
+  color: #999;
+}
+.nav-tabs-custom > .nav-tabs > li > a,
+.nav-tabs-custom > .nav-tabs > li > a:hover {
+  background: transparent;
+  margin: 0;
+}
+.nav-tabs-custom > .nav-tabs > li > a:hover {
+  color: #999;
+}
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:hover,
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:focus,
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:active {
+  border-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #3c8dbc;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a,
+.nav-tabs-custom > .nav-tabs > li.active:hover > a {
+  background-color: #fff;
+  color: #444;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a {
+  border-top-color: transparent;
+  border-left-color: #f4f4f4;
+  border-right-color: #f4f4f4;
+}
+.nav-tabs-custom > .nav-tabs > li:first-of-type {
+  margin-left: 0;
+}
+.nav-tabs-custom > .nav-tabs > li:first-of-type.active > a {
+  border-left-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs.pull-right {
+  float: none!important;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li {
+  float: right;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type {
+  margin-right: 0;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type > a {
+  border-left-width: 1px;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type.active > a {
+  border-left-color: #f4f4f4;
+  border-right-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs > li.header {
+  line-height: 35px;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #444;
+}
+.nav-tabs-custom > .nav-tabs > li.header > .fa,
+.nav-tabs-custom > .nav-tabs > li.header > .glyphicon,
+.nav-tabs-custom > .nav-tabs > li.header > .ion {
+  margin-right: 5px;
+}
+.nav-tabs-custom > .tab-content {
+  background: #fff;
+  padding: 10px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.nav-tabs-custom .dropdown.open > a:active,
+.nav-tabs-custom .dropdown.open > a:focus {
+  background: transparent;
+  color: #999;
+}
+/* PAGINATION */
+.pagination > li > a {
+  background: #fafafa;
+  color: #666;
+}
+.pagination.pagination-flat > li > a {
+  border-radius: 0 !important;
+}
+
+
+
+/* iCheck plugin Flat skin, blue
+----------------------------------- */
+.icheckbox_flat-blue,
+.iradio_flat-blue {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(blue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_flat-blue {
+    background-position: 0 0;
+}
+    .icheckbox_flat-blue.checked {
+        background-position: -22px 0;
+    }
+    .icheckbox_flat-blue.disabled {
+        background-position: -44px 0;
+        cursor: default;
+    }
+    .icheckbox_flat-blue.checked.disabled {
+        background-position: -66px 0;
+    }
+
+.iradio_flat-blue {
+    background-position: -88px 0;
+}
+    .iradio_flat-blue.checked {
+        background-position: -110px 0;
+    }
+    .iradio_flat-blue.disabled {
+        background-position: -132px 0;
+        cursor: default;
+    }
+    .iradio_flat-blue.checked.disabled {
+        background-position: -154px 0;
+    }
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_flat-blue,
+    .iradio_flat-blue {
+        background-image: url(blue@2x.png);
+        -webkit-background-size: 176px 22px;
+        background-size: 176px 22px;
+    }
+}

@@ -1,0 +1,92 @@
+﻿@media print {
+                @page 
+                {
+                    size:portrait;
+                    margin: 2px 2px 2px 2px;
+                }
+            }
+body {
+
+}
+.cuadroImpresion {
+    max-width:800px;
+    margin:0px;
+    padding:0px;
+    background-color:#fff;
+}
+/*ENCABEZADO*/
+.cuadroEncabezado {
+    max-width:810px; border:0px solid #000;       
+}
+.cuadroEncabezadoTDCentro {
+    text-align:center;
+    width:400px;
+    
+}
+.cuadroEncabezadoTDli {
+    text-align:center;   
+    width:150px;         
+}
+.cuadroEncabezadoTDld {
+    text-align:right;
+     width:250px;      
+}
+.cuadroEncabezadoTDld > .cuadroEncabezadoInterno, .cuadroEncabezadoInternoTes2{
+    font-size:9pt;
+}
+.cuadrodatosestudiante{
+    font-size:9pt;
+}
+.cuadroconceptosapagar{
+    font-size:8pt;
+    border-collapse:collapse;
+}
+.cuadrobanco{
+    font-size:8pt;
+}
+.cuadrodepagos
+{
+    font-size:9pt;
+}
+.encTitulo1 {
+    font-size:18px;
+    font-weight:bold;
+}
+.encTitulo2 {
+    font-size:13px;
+    font-weight:bold;
+}
+.encTitulo3 {
+    font-size:12px;            
+}
+.cuadroEncabezadoInterno{
+    max-width:300px; border:1px solid #000; 
+    border-collapse:collapse;      
+    margin-right:20px;
+}
+.cuadroEncabezadoInterno th{
+    text-align:left;   
+    font-weight:bold;
+    padding:2px 10px 2px 5px;
+}
+.cuadroEncabezadoInterno td{
+    text-align:left;  
+    padding:2px 5px 2px 10px; 
+}
+
+.cuadroEncabezadoInternoTes2{
+    max-width:300px; border:1px solid #000; 
+    border-collapse:collapse;
+}
+.cuadroEncabezadoInternoTes2 th{
+    text-align:left;   
+    font-weight:bold;
+    padding:2px 10px 2px 5px;
+}
+.cuadroEncabezadoInternoTes2 td{
+    text-align:left;  
+    padding:2px 5px 2px 10px; 
+}
+p{
+    margin:0;
+}

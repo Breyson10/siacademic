@@ -1,0 +1,10 @@
+﻿body {
+    background-color: #0ca3d2;
+    /*background: url(../Imagenes/back-login.png);*/        
+}
+.img-responsive {
+    margin: auto;
+}
+.developer {
+    position:relative;  
+}

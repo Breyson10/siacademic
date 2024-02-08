@@ -1,0 +1,218 @@
+﻿body{
+    
+}
+.cuadroImpresion {
+    font-family:Arial;
+    width:900px;
+    margin:0px;
+    padding:0px;
+    background-color:#fff;
+}
+/*ENCABEZADO*/
+.cuadroEncabezado {
+    width:900px; border:1px solid #000;    
+    margin-left:1px;   
+}
+.cuadroEncabezadoTDCentro {
+    text-align:center;
+    width:500px;
+}
+.cuadroEncabezadoTDli {
+    text-align:left;            
+}
+.cuadroEncabezadoTDld {
+    text-align:right;
+}
+.cuadroEncabezadoPreview {
+    width:750px; border:1px solid #000;       
+}
+.cuadroEncabezadoPreviewTDCentro {
+    text-align:center;
+    /*width:410px;*/
+}
+.cuadroEncabezadoPreviewTDli {
+    text-align:left;            
+}
+.cuadroEncabezadoPreviewTDld {
+    text-align:right;
+}
+.encTitulo1 {
+    font-size:18px;
+    font-weight:bold;
+}
+.encTitulo2 {
+    font-size:13px;
+    font-weight:bold;
+}
+.encTitulo3 {
+    font-size:12px;            
+}
+
+/*Información Boletin*/
+.cuadroInfoBoletin {
+    width:900px; border:1px solid #000; margin-top:3px;
+    font-size:13px;
+}
+.tituloInfoBoletin {                        
+    text-transform:uppercase; 
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    text-decoration:underline;     
+}
+/*Escala Valorativa*/
+.cuadroEscala {
+    width:900px; border:1px solid #000; margin-top:1px;font-size: 13px;
+}
+.tituloEscala {
+    text-transform:uppercase; 
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    text-decoration:underline; 
+    position:relative;
+}
+.descripEscala {
+    width:100%;
+    text-align:center;
+}
+
+/*BOLETIN*/
+.texto-center {
+    text-align: center !important;
+}
+.texto-left {
+    text-align: left !important;
+}
+.tabla-asig-boletin {
+    width: 900px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.tabla-asig-boletin td {
+    padding: 2px;
+    border: 1px solid #000;
+    font-size: 12px;
+}
+.texto-en-vertical {
+    white-space: nowrap;
+    transform: rotate(270deg);
+    height: 88px;
+    padding: 0px !important;
+}
+.texto-en-vertical-space {
+    white-space: normal;
+    transform: rotate(270deg);
+    height: 88px;
+    padding: 0px !important;
+}
+.tdVacio{
+    border: none !important;
+    height:30px;
+}
+.boletin {
+    width: 900px;
+    border: 0px solid #000;
+    padding: 0;
+    margin-top: 1px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.boletinth {
+    font-weight:normal;
+    background-color:#ccc;
+    padding:0px 3px 0 3px;
+    border:1px solid #000;
+    text-align:left;
+    font-size:13px;
+}
+.boletin td {    
+    padding:2px;
+    border:1px solid #000;
+    font-size:12px;
+}
+.divisor_asignaturas {
+    padding-left:10px;
+    height:100%;
+}
+.divisor_logros {
+    padding:0px;
+    margin:0px;
+}
+p {
+    margin:0px;
+}
+
+.tablalogros {
+    width:100%; border:0px solid #000;
+    padding:0;
+    margin-top:0px;
+    border-spacing: 0px;
+    border-collapse:collapse;
+}
+.logros_asigth {
+    background-color:#b9b9b9;
+    padding:0px;
+    border:0px solid #000;
+}
+.tablalogros td {
+    padding:0px;
+    padding-left:4px;
+    border:0px solid #000;
+}
+.logros_asigth2 {
+    background-color:#dedede;
+    padding:0px;
+    border:0px solid #000;
+}
+
+/*Tutor*/
+.cuadroTutor {
+    width:900px; border:1px solid #000; margin-top:1px;
+    border-spacing: 0px;
+    border-collapse:collapse;
+}
+.cuadroTutor td {    
+    padding:2px;
+    border:1px solid #000;
+    font-size:13px;
+}
+
+.cuadroTutor2 {
+    margin:10px 10px 10px 10px;
+    border-spacing: 0px;
+    border-collapse:collapse;
+}
+.cuadroTutor2 td {    
+    padding:2px;
+    border:1px solid #000;
+    font-size:12px;
+}
+
+.gridBoletin {   
+    background-color: #fff;      margin: 5px 0 10px 0;       border: solid 0px #dddddd;       border-collapse:collapse; color: #000; 
+}  
+.gridBoletin th {   
+    padding: 5px 8px;       color: #fff;       background: #507cd1;   
+    font-size: 15px;   border-left:1px solid #dddddd; border-right:1px solid #ccc; border-bottom:3px solid #dddddd;    
+} 
+.gridBoletin td {   
+    border: solid 1px #dddddd;         font-size:14px; padding: 2px 4px;     
+}   
+.gridBoletin .tdnro {   
+    text-align:center; 
+}
+.gridBoletin .tdestudiante {   
+    padding:2px 6px; width:350px;
+}
+.gridBoletin .tda a{   
+    color:#0645ad;
+}
+.gridBoletin .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }  
+.gridBoletin .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }  
+.gridBoletin .pgr table { margin: 5px 0; }  
+.gridBoletin .pgr td {   
+    border-width: 0;       padding: 0 6px;       border-left: solid 1px #666;       font-weight: bold;       color: #fff;     line-height: 12px;   
+ }     
+.gridBoletin .pgr a { color: #666; text-decoration: none; }  
+.gridBoletin .pgr a:hover { color: #000; text-decoration: none; }

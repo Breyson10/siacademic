@@ -1,0 +1,97 @@
+﻿@font-face {
+   font-family: 'Source Sans Pro';
+   src: url('../Fonts/SourceSansPro-Regular.ttf');
+}
+body{    
+	font-family: 'Roboto', sans-serif;
+    background: #d9dddc url(../Imagenes/back-login.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.azul1{
+	width:340px;
+	margin: 0 auto;
+	background: rgba(21,65,148,1);
+    background: -moz-linear-gradient(top, rgba(21,65,148,1) 0%, rgba(21,65,148,0.7) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(21,65,148,1)), color-stop(100%, rgba(21,65,148,0.7)));
+    background: -webkit-linear-gradient(top, rgba(21,65,148,1) 0%, rgba(21,65,148,0.7) 100%);
+    background: -o-linear-gradient(top, rgba(21,65,148,1) 0%, rgba(21,65,148,0.7) 100%);
+    background: -ms-linear-gradient(top, rgba(21,65,148,1) 0%, rgba(21,65,148,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(21,65,148,1) 0%, rgba(21,65,148,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#154194', endColorstr='#154194', GradientType=0 );
+    text-align:center;
+    padding:10px;
+    font-family: 'Source Sans Pro';
+    color:#FFF;
+    font-weight:300;
+    border-radius:7px;
+}
+.campodetexto{
+	background-color:#f2f2f2;
+	width: 170px;
+	height:25px;
+	color: #000;
+    border: 1px solid #459292;
+	padding:1px 4px;
+	font-size:12pt;
+}	
+.boton{
+	border-radius: 5px;
+    -moz-border-radius:5px;
+	text-align:center;
+	color:#fff;
+	height: 30px;	
+	font-size:12pt;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	border:0px;
+	cursor:pointer;
+	background: rgba(68,149,212,1);
+    background: -moz-linear-gradient(top, rgba(12, 148, 173, 1) 0%, rgba(2,24,64,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(68,149,212,1)), color-stop(100%, rgba(2,24,64,1)));
+    background: -webkit-linear-gradient(top, rgba(68,149,212,1) 0%, rgba(2,24,64,1) 100%);
+    background: -o-linear-gradient(top, rgba(68,149,212,1) 0%, rgba(2,24,64,1) 100%);
+    background: -ms-linear-gradient(top, rgba(68,149,212,1) 0%, rgba(2,24,64,1) 100%);
+    background: linear-gradient(to bottom, rgba(68,149,212,1) 0%, rgba(2,24,64,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#154194', endColorstr='#021840', GradientType=0 );
+}
+	
+.boton:hover{
+	
+	text-align:center;
+	color:#fff;
+	height: 30px;	
+	border:0px;	
+	background: rgba(56,122,173,1);
+    background: -moz-linear-gradient(top, rgba(56,122,173,1) 0%, rgba(2,24,64,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(56,122,173,1)), color-stop(100%, rgba(2,24,64,1)));
+    background: -webkit-linear-gradient(top, rgba(56,122,173,1) 0%, rgba(2,24,64,1) 100%);
+    background: -o-linear-gradient(top, rgba(56,122,173,1) 0%, rgba(2,24,64,1) 100%);
+    background: -ms-linear-gradient(top, rgba(56,122,173,1) 0%, rgba(2,24,64,1) 100%);
+    background: linear-gradient(to bottom, rgba(56,122,173,1) 0%, rgba(2,24,64,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5ecc', endColorstr='#154194', GradientType=0 );
+}	  
+
+.mensaje{        
+    margin: 5px auto 10px;
+    font-size: 15px;
+}
+.tablanube{
+	width:645px;
+    padding:20px;
+	margin: 10% auto 0 auto;
+    /*background-color:#459292;*/
+    background-color: rgba(34, 84, 138, 0.80);
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+.tablalogin{
+    width:640px;
+    margin:0 auto;
+    border-collapse:collapse;
+    background-color: #fff;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}

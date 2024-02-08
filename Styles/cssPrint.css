@@ -1,0 +1,50 @@
+﻿body{
+    background-color:#fff !important;
+}
+.top_header{
+    display:none !important;
+}
+#menuizq{
+    display:none !important;
+}
+.cajafiltro{
+    display:none;
+}
+.header{
+    display:none;
+}
+#mensaje{
+    display:none;
+}
+.content{
+    padding:0px;
+    margin:0px;
+}
+.content-agrupado{
+    padding:0px !important;
+    margin:0px !important;
+}
+/*para quitar el icono de sorting en table*/
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc:after
+{
+    display:none !important;
+}
+.dataTables_length{
+    display:none;
+}
+.dataTables_filter{
+    display:none;
+}
+.dataTables_info{
+    display:none;
+}
+.dataTables_paginate{
+    display:none;
+}
+.noimprimir{
+    display:none !important;
+}
+.siimprimir{
+    display:inherit !important;
+}

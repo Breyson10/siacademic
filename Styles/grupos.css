@@ -1,0 +1,97 @@
+﻿.obligatorio::after {
+    color: red;
+    font-weight: bold;
+    content: "*";
+    margin-left: 5px;
+}
+
+.cuadro{
+    overflow: auto;
+}
+
+.campoFormulario {
+    width: 100px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.cuadro-grupo {
+    padding: 10px 0px 10px 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top:5px;
+}
+
+.titulo-cuadro {
+    color: white;
+}
+
+.bg-green {
+    background-color: #00a65a !important;
+}
+
+.bg-navy {
+    background-color: #001f3f !important;
+}
+
+.bg-teal {
+    background-color: #39cccc !important;
+}
+
+.bg-olive {
+    background-color: #3d9970 !important;
+}
+
+.bg-lime {
+    background-color: #01ff70 !important;
+}
+
+.bg-orange {
+    background-color: #ff851b !important;
+}
+
+.bg-fuchsia {
+    background-color: #f012be !important;
+}
+
+.bg-purple {
+    background-color: #605ca8 !important;
+}
+
+.bg-maroon {
+    background-color: #d81b60 !important;
+}
+
+.bg-gray {
+    color: #000;
+    background-color: #d2d6de !important;
+}
+
+.bg-gray-light {
+    background-color: #f7f7f7;
+}
+
+.bg-black {
+    background-color: #111111 !important;
+}
+
+.bg-red {
+    background-color: #dd4b39 !important;
+}
+
+.bg-yellow {
+    background-color: #f39c12 !important;
+}
+
+.bg-blue {
+    background-color: #0073b7 !important;
+}
+
+.bg-light-blue {
+    background-color: #3c8dbc !important;
+}

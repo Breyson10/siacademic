@@ -1,0 +1,98 @@
+﻿.agenda .dvMesAGE{
+    position:relative;
+    border:1px solid #ccc; border-bottom:0px; text-align:center; background-color: #fafafa;padding:3px 0px 2px;
+}
+.agenda .dvMesAGE #abrirDateTimePicker4{
+    border:1px solid transparent;
+    width:250px;
+    font-weight:bold;
+    display:inline-block;
+}
+.agenda .dvMesAGE #abrirDateTimePicker4:hover{
+    border:1px solid #ccc;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    background-color:#efeded;
+    cursor:pointer;
+}
+.agenda .dvMesAGE #abrirDateTimePicker4 > span:nth-child(2){
+    display:none;
+}
+.agenda .dvMesAGE #abrirDateTimePicker4:hover > span:nth-child(1){
+    display:none;
+}
+.agenda .dvMesAGE #abrirDateTimePicker4:hover > span:nth-child(2){
+    display:block;
+}
+.agenda div .gridAgendaDias{
+    border-collapse:collapse;            
+}
+.agenda div .gridAgendaDias tr td{
+    background-color:#fff;
+    padding:6px 0px;
+}
+.agenda div .gridAgendaDias tr td:hover{
+    background-color:#f5f5ee;
+    cursor:pointer;
+}
+.agenda div .gridAgendaDias tr .diaOrange{
+    border-top:2px solid #ed6b3f !important;color:#ed6b3f;background-color:#ffebe5 !important;
+}
+.agenda div .gridAgendaDias tr .diaOrange:hover {
+    background-color:#ffe0d7 !important;
+}
+.agenda div .gridAgendaDias tr .diaAzul{
+    border-top:2px solid transparent;background-color:#e5f1fb;
+}
+.agenda div .gridAgendaDias tr .diaAzul:hover {
+    background-color:#dcebf8;
+}
+.agenda div .gridAgendaDias tr .diaNormal{
+    border-top:2px solid transparent;
+}
+.agenda .dvEventosAGE{
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-top:0px;
+    padding:0px 0px 3px;
+    /*min-height:350px;
+    max-height:400px;*/
+    min-height: 400px;
+    max-height: 425px;
+    /*overflow-y:auto;*/
+}
+.agenda .dvEventosAGE .tituloAsignaturaDocente p, #dvAgendaItems > h4{
+    color:#9c9ca5;
+    padding:3px 4px 2px;
+    font-size:11px;
+    margin:0px auto;background-color:#fafafa;
+    border-top: 1px solid #ccc;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    width:100%;
+    white-space:nowrap;
+}
+.agenda .dvEventosAGE #dvAgendaItems .bs-callout{
+    margin:1px 0px;
+}
+.agenda .dvEventosAGE #dvAgendaItems .bs-callout p{
+    font-size:12px;
+}
+.agenda .tab_content_fecha_actividad {
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: -2px;
+    font-style: normal;
+    color: #9C9C9C;
+    display: block;
+}
+.agenda .tituloAsignatura{
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 15px;
+        color: #1b1b1b;
+}
+.agenda .tituloAsignatura>span{
+        font-size:12px;font-weight:normal; padding-left: 20px;
+        color:#373737;
+}

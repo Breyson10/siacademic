@@ -1,0 +1,305 @@
+﻿
+.menu_aula{
+    list-style-type:none;
+    -webkit-padding-start: 0px;
+    padding:8px 10px 5px;            
+    margin:0 0;
+    float:left;
+    width:110px;
+    height:150px;
+    text-align:center;
+            
+}
+.tableAncho {
+    width:450px;
+}
+.inputAncho{
+    width:100%;
+}
+.menu_aula a {
+    color: #626262;
+    text-decoration: none;
+}
+.menu_aula img{
+    cursor:pointer;
+    width:100px;
+    -webkit-transition: width 200ms ease-in;
+    -moz-transition: width 200ms ease-in;
+    -ms-transition: width 200ms ease-in;
+    -o-transition: width 200ms ease-in;
+    transition: width 200ms ease-in;
+}
+.menu_aula p{
+    cursor:pointer;
+    text-align:center;
+}
+.menu_aula img:hover{
+    width:110px;
+    -webkit-transition: width 200ms ease-in;
+    -moz-transition: width 200ms ease-in;
+    -ms-transition: width 200ms ease-in;
+    -o-transition: width 200ms ease-in;
+    transition: width 200ms ease-in;
+}
+
+.btnConfiguracion {
+    float:right;
+    margin-top:-5px;
+    width:20px;
+    height:20px;
+}
+.lblConfiguracion {
+    background:#e1e1e1;
+    padding:3px;
+}
+
+.div_tipoactividad {
+    border: 1px solid #143362;
+    padding: 3px;
+    background-color: #193d79;
+    color: #fff;
+    padding-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-radius: 4px;
+    color: #fff;
+}
+
+.lecturas {
+    background: url('../Imagenes/aulavirtual/sprite-02.png') -100px -50px no-repeat;
+}
+
+ .recursos
+{
+    background: url('../Imagenes/aulavirtual/sprite-02.png') -50px -50px no-repeat;            
+}
+.actividades
+{
+    background: url('../Imagenes/aulavirtual/sprite-02.png') -150px -50px no-repeat;            
+}
+.foros
+{
+    background: url('../Imagenes/aulavirtual/sprite-02.png') -200px -50px no-repeat;            
+}
+.misionyvision
+{
+    background: url('../Imagenes/aulavirtual/sprite-02.png') -350px -50px no-repeat;            
+}
+     .investigacion {
+            background: url('../Imagenes/aulavirtual/sprite-02.png') -400px -50px no-repeat;
+        }
+             .evaluadas {
+            background: url('../Imagenes/aulavirtual/sprite-02.png') -450px -50px no-repeat;
+        }
+.estructura {
+    position: absolute;
+    /* top: 10px; */
+    /* left: 3px; */
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-left: -52px;
+    margin-top: -15px;
+}
+
+.div_actividad {
+}
+.div_tipoactividad2 {
+    padding-left: 20px;
+}
+.icon-actividad {
+    width: 25px;
+    margin-right: 10px;
+}
+.activity {
+    list-style: none;
+    padding: 7px 5px 7px 15px;
+}
+.activityh {
+    list-style: none;
+    padding: 7px 5px 7px 15px;
+}
+ .activityh:hover{
+            background-color:#e6e6e6;
+        }
+.opciones_comando {
+    font-style: oblique;
+    font-size: 11px;
+    color: #555555;
+    padding-left: 20px;
+}
+.opciones_comando_estructura {
+    font-style: oblique;
+    font-size: 11px;
+    color: #555555;
+    padding-left: 20px;
+    float:right;
+    margin-top: -44px;
+    background-color: #fff;
+    margin-right: 16px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.icon-small img{
+    width: 15px;
+    margin-left: 3px;
+    cursor:pointer;
+}
+
+#MainContent_pnlIntervalos ul li {
+    display:inline-block;
+    margin-left:2px;
+    cursor:pointer;
+}
+
+#MainContent_pnlIntervalos{
+    margin-left:20px;
+}
+
+#MainContent_pnlIntervalos ul {
+    background-color: #E8E8E8;
+    width: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.activo {
+    border-radius: 0px;
+    margin-left: 5px;
+    padding: 8px;
+    padding-right: 15px;
+    background-color: #07B;
+    /*border-radius: 5px;*/ 
+    margin-left: -3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pestana {
+    margin-left: 5px;
+    margin-bottom:2px;
+    padding: 8px;
+    padding-right: 15px;
+    background-color: #BDBDBD;
+    /*border-radius: 5px;*/ 
+    margin-left: -3px;
+    text-decoration: none;
+}
+
+.clear {
+    clear:both;
+}
+ .modal2 {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    z-index: 100;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.8;
+    min-height: 100%;
+}
+
+
+#divImage {
+            display: none;
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: White;
+            height: 550px;
+            width: 600px;
+            padding: 3px;
+            /*para Firefox*/
+            -moz-border-radius: 15px 15px 15px 15px;
+            /*para Safari y Chrome*/
+            -webkit-border-radius: 15px 15px 15px 15px;
+            /* para Opera */
+            border-radius: 15px 15px 15px 15px;
+            /*border: solid 1px black;*/
+        }
+
+/***************
+     Switch
+***************/
+.switch,
+.switch * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+.switch label {
+  cursor: pointer;
+}
+
+.switch label input[type=checkbox] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #84c7c1;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #26a69a;
+}
+
+.switch label .lever {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 15px;
+  background-color: #818181;
+  border-radius: 15px;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+  vertical-align: middle;
+  margin: 0 16px;
+}
+
+.switch label .lever:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-color: #F1F1F1;
+  border-radius: 21px;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+  left: -5px;
+  top: -3px;
+  transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease;
+}
+
+input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 166, 154, 0.1);
+}
+
+input[type=checkbox]:not(:disabled) ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  left: 24px;
+}
+
+.switch input[type=checkbox][disabled] + .lever {
+  cursor: default;
+}
+
+.switch label input[type=checkbox][disabled] + .lever:after,
+.switch label input[type=checkbox][disabled]:checked + .lever:after {
+  background-color: #BDBDBD;
+}
+/********************************************/
